@@ -16,6 +16,10 @@
 `npm install`
 `npm run dev`
 
+Setup project
+In index.html
+
+replace [YOUR_API_TOKEN_HERE] by your App key
 ---
 
 #### How about SSL Certificates?
