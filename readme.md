@@ -46,7 +46,7 @@ Here's a couple of examples I used to test the pipeline. But generally all mater
 <p align="center">
   <img src="doc-images/refraction.gif" width="240" />
 </p>
-```js
+```jsx
 import DreiRefraction from './examples';
 <DreiRefraction/>
 ```
@@ -56,7 +56,7 @@ import DreiRefraction from './examples';
 <p align="center">
   <img src="doc-images/gltf.gif" width="240" />
 </p>
-```js
+```jsx
 import LoadedGltf from './examples';
 <LoadedGltf/>
 ```
@@ -66,7 +66,7 @@ import LoadedGltf from './examples';
 <p align="center">
   <img src="doc-images/animation.gif" width="240" />
 </p>
-```js
+```jsx
 import AnimatedBox from './examples';
 <AnimatedBox/>
 ```
@@ -76,7 +76,7 @@ import AnimatedBox from './examples';
 <p align="center">
   <img src="doc-images/wooble.gif" width="240" />
 </p>
-```js
+```jsx
 import WobbleMaterial from './examples';
 <WobbleMaterial/>
 ```
@@ -85,7 +85,7 @@ import WobbleMaterial from './examples';
 <p align="center">
   <img src="doc-images/distorted.gif" width="240" />
 </p>
-```js
+```jsx
 import MeshDistortion from './examples';
 <MeshDistortion/>
 ```
