@@ -8,7 +8,7 @@
 
 `React Three + 8thWall` is a collection of examples and boilerplate project that enable developers to use <b>React Three.js and Drei components</b> on your AR project for 8thwall.
 
-#### Quick-start:
+#### Quick-start
 
 🤩 It's simple as simple as...
 `git clone <this repo>`
@@ -25,9 +25,9 @@ But this project has everything ready and working, out of box! No need to run mu
 
 When you run `npm run dev` in the terminal, your IP will show up with a ✨https://✨.
 
-##### You might need to create a SSL cert. for mobile:
+##### You might need to create a SSL cert. for mobile
 
-The easiest way, it's to use mkcert (https://github.com/FiloSottile/mkcert)
+The easiest way, it's to use mkcert (<https://github.com/FiloSottile/mkcert>)
 Install:
 `brew install mkcert`
 and run:
@@ -43,52 +43,59 @@ Here's a couple of examples I used to test the pipeline. But generally all mater
 
 ### Refraction Material
 
+```jsx
+import DreiRefraction from './examples';
+<DreiRefraction />;
+```
+
 <p align="center">
   <img src="doc-images/refraction.gif" width="240" />
 </p>
-```jsx
-import DreiRefraction from './examples';
-<DreiRefraction/>
-```
 
 ### Loading GLTF
+
+```jsx
+import LoadedGltf from './examples';
+<LoadedGltf />;
+```
 
 <p align="center">
   <img src="doc-images/gltf.gif" width="240" />
 </p>
-```jsx
-import LoadedGltf from './examples';
-<LoadedGltf/>
-```
 
 ### Animation Example
+
+```jsx
+import AnimatedBox from './examples';
+<AnimatedBox />;
+```
 
 <p align="center">
   <img src="doc-images/animation.gif" width="240" />
 </p>
-```jsx
-import AnimatedBox from './examples';
-<AnimatedBox/>
-```
 
 ### Wobble Material
+
+```jsx
+import WobbleMaterial from './examples';
+<WobbleMaterial />;
+```
 
 <p align="center">
   <img src="doc-images/wooble.gif" width="240" />
 </p>
-```jsx
-import WobbleMaterial from './examples';
-<WobbleMaterial/>
-```
+
 ### Distorted mesh
+
+```jsx
+import MeshDistortion from './examples';
+<MeshDistortion />;
+```
 
 <p align="center">
   <img src="doc-images/distorted.gif" width="240" />
 </p>
-```jsx
-import MeshDistortion from './examples';
-<MeshDistortion/>
-```
+
 <p align="center">
 <br/>
 <a href="https://www.buymeacoffee.com/vettorazi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
